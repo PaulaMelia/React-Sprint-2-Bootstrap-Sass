@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookMark</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container-xl">
+      <nav class="fixed-top navbar navbar-expand-lg bg-body px-3 px-lg-0 pt-4 pt-lg-5 pb-3">
+        <div class="container-xl align-items-center">
+          <a class="navbar-brand ms-lg-5 " href="#">
+            <img src="./Recursos projecte sprint 2-20221113/Imagenes/logo-bookmark.svg" class="img-fluid"
+              alt="BookMark">
+          </a>
+
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <!--<img src="./Recursos projecte sprint 2-20221113/Imagenes/icon-hamburger.svg" alt="hamburguer menu">-->
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 pe-lg-5 me-lg-4 text-uppercase align-items-center ">
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-dark" aria-current="page" href="#features">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-dark" href="#">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-dark" href="#footer">CONTACT</a>
+              </li>
+              <li class="nav-items">
+                <button type="button"
+                  class="btn btn-danger nav-link btn btn-secondary mx-2 py-2 px-4 text-white">LOGIN</button>
+                <!--<a class="nav-link disabled" href="#">LOGIN</a>-->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    <section class="container-xl mt-5">
+      <!--primera column-->
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 order-2 order-lg-1 text-center">
+          <h1 class="mb-3 mx-5 mx-lg-0">A Simple Bookmark Manager</h1>
+          <p class="text-black-50 mb-4 mx-5 mx-lg-0 pe-lg-5">A clean and simple interface to organize your favorite
+            website. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="buttns">
+            <button class="btn btn-primary me-3 px-3 py-2 border-2 shadow-sm"><span class="small">Get it on
+                Chrome</span></button>
+            <button class="btn btn-light me-3 px-3 py-2 border-2 shadow-sm"><span class="small">Get it on
+                Firefox</span></button>
+          </div>
+
+        </div>
+        <!--segunda column-->
+        <div class="col-12 col-lg-6 order-1 order-lg-2 mt-5 mb-5 mb-lg-0 text-center position-relative">
+          <img class="img-fluid" src="./Recursos projecte sprint 2-20221113/Imagenes/illustration-hero.svg"
+            style="z-index:1" alt="Illustration hero" class="img-fluid pb-4 position-relative">
+          <span class="bg-primary rounded-pill rounded-end position-absolute bottom-0 end-0 w-75 h-75"
+            style="z-index:-1"></span>
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </main>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
