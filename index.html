@@ -55,6 +55,7 @@
 
   </header>
   <main>
+    <!-- grid responsive -->
     <section class="container-xl mt-5">
       <!--primera column-->
       <div class="row justify-content-center align-items-center">
@@ -76,12 +77,96 @@
             style="z-index:1" alt="Illustration hero" class="img-fluid pb-4 position-relative">
           <span class="bg-primary rounded-pill rounded-end position-absolute bottom-0 end-0 w-75 h-75"
             style="z-index:-1"></span>
-        </div>
+      
       </div>
     </section>
 
+    <!-- grid responsive 2 / nav y tab -->
+    <section class="container-xl mt-5" id="features">
+			<div class="row">
+				<div class="col-12 col-lg-6 m-auto text-center mt-5 px-1">
+					<h3>Features</h3>
+					<p class="text-black-50 mb-4 mx-5 mx-lg-0 mt-2 mt-lg-4">Our aim is to make it quick and easy for you to access your favouriten websites. Your bookmarks sync between your devices so you can access	them on the go.</p>
+				</div>
+      </div>
+
+      <div class="row justify-content-center">
+				<ul class="nav nav-tabs flex-column align-items-center flex-lg-row justify-content-between col-12 col-lg-7 p-lg-0 "
+					id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="w-100 nav-link active px-lg-4 py-3" id="feat-1-tab" data-bs-toggle="tab"
+							data-bs-target="#feat-1" type="button" role="tab" aria-controls="feat-1"
+							aria-selected="true">Simple Bookmarking</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="w-100 nav-link px-lg-4 py-3 " id="feat-2-tab" data-bs-toggle="tab"
+							data-bs-target="#feat-2" type="button" role="tab" aria-controls="feat-2"
+							aria-selected="false">Speedy Searching</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link px-lg-4 py-3" id="feat-3-tab" data-bs-toggle="tab"
+							data-bs-target="#feat-3" type="button" role="tab" aria-controls="feat-3"
+							aria-selected="false">Easy Sharing</button>
+					</li>
+				</ul>
+				<div class="tab-content mt-5 pt-5 pt-lg-2 mb-5" id="myTabContent">
+
+					<section class="tab-pane fade show active" id="feat-1" role="tabpanel" aria-labelledby="feat-1-tab">
+						<div class="row align-items-center">
+							<div class="col-12 col-lg-6 mb-5 mg-lg-0 mt-2 mt-lg-0 px-4 text-center position-relative">
+								<img class="img-fluid" src="./Recursos projecte sprint 2-20221113/Imagenes/illustration-features-tab-1.svg" alt="features 1">
+								<div class="blue-form-left rounded-pill bg-primary"></div>
+							</div>
+							<div class="col-12 col-lg-6 text-center mt-5 mt-lg-0 text-lg-start ps-lg-5">
+								<h3>Bookmark in one click</h3>
+								<p class="text-black-50 mt-3 mb-4 mx-5 mx-lg-0 pe-lg-5">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+								<button type="button"
+									class="btn btn-primary shadow-sm me-2 d-none d-lg-block border-2"><span class="small">More info</span></button>
+							</div>
+						</div>
+					</section>
+          <section class="tab-pane fade" id="feat-2" role="tabpanel" aria-labelledby="feat-2-tab">
+						<div class="row align-items-center">
+							<div class="col-12 col-lg-6 mb-5 mt-2 px-4 text-center position-relative overflow-auto">
+								<img class="img-fluid" src="./Recursos projecte sprint 2-20221113/Imagenes/illustration-features-tab-2.svg" alt="features 2">
+								<div class="blue-form-left rounded-pill bg-primary"></div>
+							</div>
+							<div class="col-12 col-lg-6 text-center mt-5 mt-lg-0 text-lg-start ps-lg-5">
+								<h3>Intelligent search</h3>
+								<p class="text-black-50 mt-3 mb-4 mx-5 mx-lg-0 pe-lg-5">Our powerful search feature will help you find saved sites in no time at all. No need to trawi through all of your bookmarks.</p>
+								<button type="button"
+									class="btn btn-primary shadow-sm me-2 d-none d-lg-block border-2"><span class="small">More info</span></button>
+							</div>
+						</div>
+					</section>
+
+					<section class="tab-pane fade" id="feat-3" role="tabpanel" aria-labelledby="feat-3-tab">
+						<div class="row align-items-center">
+							<div class="col-12 col-lg-6 mb-5 mg-lg-0 mt-2 mt-lg-0 px-4 text-center position-relative overflow-hidden">
+								<img class="img-fluid" src="./Recursos projecte sprint 2-20221113/Imagenes/illustration-features-tab-3.svg" alt="features 3">
+								<div class="blue-form-left rounded-pill bg-primary"></div>
+							</div>
+							<div class="col-12 col-lg-6 text-center mt-5 mt-lg-0 text-lg-start ps-lg-5">
+								<h3>Share your bookmarks</h3>
+								<p class="text-black-50 mt-3 mb-4 mx-5 mx-lg-0 pe-lg-5">Easily share your bookmarks and collections with other. Create a shareable link that you can send at the click of a button.</p>
+								<button type="button"
+									class="btn btn-primary shadow-sm me-2 d-none d-lg-block border-2"><span class="small">More info</span></button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+
+
+
 
   </main>
+
+
+
+
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
