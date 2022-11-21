@@ -1,14 +1,112 @@
 //Bootstrap modificat
-$font-family-sans-serif: "Rubik", sans-serif;
+$font-family-sans-serif: "Rubik",
+sans-serif;
 
 $primary: #5265e1;
 $secondary: #fa5959;
 
-//Modifiació accordion per hover i active
-$accordion-button-active-color: #212529;
-$accordion-button-active-bg: #ffffff00;
-$accordion-button-focus-box-shadow: #9c141400;
-$accordion-icon-active-color: $secondary;
+
+//CSS del web
+body {
+    overflow-x: hidden;
+}
+
+.blue-form-right {
+    position: absolute;
+    z-index: -1;
+    width: 400%;
+    height: 75%;
+    top: 30%;
+    left: 30%;
+}
+
+.blue-form-left {
+    position: absolute;
+    z-index: -1;
+    width: 400%;
+    height: 95%;
+    top: 25%;
+    right: 25%;
+}
+
+.card .img-size {
+    width: 35%;
+}
+
+@media (min-width: 992px) {
+    .card-adapt {
+        & div:nth-child(1) div:nth-child(1) {
+            margin-top: 1rem;
+        }
+
+        & div:nth-child(2) div:nth-child(1) {
+            margin-top: 4rem;
+        }
+
+        & div:nth-child(3) div:nth-child(1) {
+            margin-top: 7rem;
+        }
+    }
+}
+
+.p-footer {
+    letter-spacing: 0.3rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+}
+
+//Canvi de color amb filter sobre arxiu .svg dins d'etiqueta img
+.social-icon:hover {
+    filter: invert(56%) sepia(47%) saturate(3472%) hue-rotate(325deg) brightness(100%) contrast(97%);
+}
+
+//Bootstrap importat
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//CSS  Bootstrap 
+.navbar-nav .nav-item .nav-link {
+    letter-spacing: 0.1rem;
+    font-size: 0.65rem;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: $dark;
+    border-bottom: 0.25rem solid $secondary;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: $gray-600;
+    border: none;
+}
+
+.nav .nav-item .nav-link {
+    letter-spacing: 0.1rem;
+    font-size: 0.85rem;
+}
+
+//WEB
+.nav-link:hover,
+.accordion-button:hover {
+    color: $secondary !important;
+}
+
+.btn-primary:hover {
+    color: $primary;
+    background-color: $body-bg;
+    border-color: $primary;
+}
+
+.btn-secondary:hover {
+    color: $secondary !important;
+    background-color: $body-bg;
+    border-color: $secondary;
+}
+
+.btn-light:hover {
+    color: $dark;
+    background-color: $body-bg;
+    border-color: $dark;
+}
 
 
 
@@ -26,4 +124,3 @@ $accordion-icon-active-color: $secondary;
 
 
 @import"./node_modules/bootstrap/scss/bootstrap.scss";
-
