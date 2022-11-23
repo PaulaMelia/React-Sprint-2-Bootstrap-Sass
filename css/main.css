@@ -3,11 +3,12 @@ body {
   overflow-x: hidden;
 }
 
+
 .blue-form-right {
   position: absolute;
   z-index: -1;
   width: 400%;
-  height: 75%;
+  height: 74%;
   top: 30%;
   left: 30%;
 }
